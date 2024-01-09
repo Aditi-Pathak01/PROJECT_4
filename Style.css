@@ -2,4 +2,280 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
 }
+
+html {
+  scroll-behavior: smooth;
+}
+/* ----------Header-Section------------ */
+.collapse {
+  margin-left: 41%;
+}
+.header {
+  background-color: #6900d1;
+}
+.navbar {
+  padding-top: 20px;
+}
+.nav-item {
+  margin-bottom: 10px;
+  margin-left: 22px;
+}
+
+.nav-link {
+  color: rgb(195, 185, 185);
+  font-size: 15px;
+  display: unset;
+  transition: all 0.15s ease 0.1s;
+}
+
+.nav-link:hover {
+  color:white;
+}
+
+.navbar img {
+  height: 50px;
+  width: 100px;
+  object-fit: cover;
+  margin-left: 180px;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 40px;
+
+}
+
+.navbar-toggler {
+  color:transparent;
+}
+
+.active-home {
+  transition: all 0.15s ease 0s;
+}
+
+.active-home:hover {
+  border-bottom: 2px solid white;
+}
+/* Banner */
+.row1 {
+  display: flex;
+  margin-top: 2rem;
+  height: 500px;
+}
+
+.col1,.col2 {
+  flex-basis: 50%;
+}
+
+.col1 h1 {
+  color: white;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  margin-left: 180px;
+}
+
+.col1 p {
+  color: rgb(195, 185, 185);
+  margin-left: 180px;
+  margin-bottom: 3rem;
+}
+
+.col1 a {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.join-btn {
+color: black;
+background-color: white;
+margin-left: 180px;
+margin-right: 5px;
+}
+
+.exp-btn {
+  color: white;
+}
+
+.exp-btn:hover,.join-btn:hover {
+  background-color: rgb(172, 1, 172);
+  color: white;
+}
+
+.col2 img {
+  width: 90%;
+  border-radius: 23px;
+  margin-top: 4rem;
+}
+
+/*---------- Service-Section -----------*/
+.service-section {
+  text-align: center;
+  margin: 1rem 1rem;
+
+}
+
+.service-section h1{
+  margin-top: 75px;
+  margin-bottom: 1rem;
+  font-size: 6vmin;
+}
+
+.service-section p{
+ font-size: 15px;
+}
+
+.service-container .row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.col-1 {
+  flex-basis: 25%;
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  transition: all 0.15s ease-in 0.1s ;
+}
+
+.col-1 img {
+  width: 35%;
+  object-position: cover;
+  margin: 0 auto 2rem;
+  border-radius: 23%;
+  cursor: pointer;
+  display: block;
+}
+
+.col-1 h6 {
+  font-weight: bolder;
+  margin-bottom: 1.6rem;
+  font-size: 15px;
+  text-align: center;
+}
+.col-1 i {
+  color: black;
+  font-size: 12px;
+  margin-right: 0.2rem;
+}
+
+
+.col-1 p {
+  font-size: 13px;
+  color: #777;
+  text-align: center;
+ 
+}
+
+.col-1 p,.col-1 i {
+  transition: all 0.15s ease-in 0.1s ;
+}
+
+
+.col-1:hover , .service-2{
+  background-color: #6900d1;
+  color: white;
+  box-shadow: 0 2px 3px 2px rgb(180, 177, 177);
+}
+
+.service-2 p ,.service-2 i{
+  color: white;
+}
+
+.col-1:hover  p ,.col-1:hover i{
+  color: white;
+}
+
+/* -------------Feature-section ---------*/
+.feature-section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 450px;
+}
+ 
+.f-img,.f-text {
+  flex-basis: 50%;
+}
+
+.f-img img {
+  width: 70%;
+  margin-top: 11%;
+  cursor: pointer;
+}
+
+.f-text h2 {
+  margin-top: 20%;
+  font-size: 4vmin;
+  font-weight: bold;
+}
+
+.f-text p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.f-text a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  background-color: #6900d1;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 8px 10px 1px rgb(129, 124, 124);
+}
+
+/* Review-Section */
+.review {
+  margin: 100px 0;
+}
+
+.carousel-item {
+  height: 430px;
+  text-align: center;
+}
+
+.carousel-item img {
+  height: 170px;
+  border-radius: 48%;
+  margin-top: 1rem;
+}
+
+.carousel-caption  {
+  box-shadow: 0 0 15px 1px #d1cdcd;
+  height: 310px;
+  z-index: -1;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.carousel-caption h6 {
+  color: black;
+  margin-top: 5rem;
+  font-size: 15px;
+}
+
+.carousel-caption small {
+  color: rgb(73, 71, 71);
+  font-size: 12px;
+}
+
+.carousel-caption p {
+  font-size: 12px;
+  color: #808080;
+  margin-top: 5rem;  
+}
+
+.carousel-indicators {
+  background-color: black;
+  width: 10%;
+  margin: 2rem auto;
+}
+
